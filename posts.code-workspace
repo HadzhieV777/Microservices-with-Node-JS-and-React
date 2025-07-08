@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "blog/posts"
+		},
+		{
+			"path": "blog/client"
+		},
+		{
+			"path": "blog/comments"
+		}
+	],
+	"settings": {
+		"prisma-smart-formatter.typescript.defaultFormatter": "vscode.typescript-language-features",
+		"prisma-smart-formatter.typescriptreact.defaultFormatter": "vscode.typescript-language-features"
+	}
+}
