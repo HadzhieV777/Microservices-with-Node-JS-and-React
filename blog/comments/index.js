@@ -1,8 +1,10 @@
 const express = require('express');
+const cors = require('cors');
 const bodyParser = require('body-parser');
 const { randomBytes } = require('crypto');
 
 const app = express();
+app.use(cors()); // ✅ Enables Cross-Origin Requests
 app.use(bodyParser.json());
 const commentsByPostId = {};
 
