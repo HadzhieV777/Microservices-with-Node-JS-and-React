@@ -23,7 +23,7 @@ const PostCreate = () => {
                     onChange={e => setTitle(e.target.value)} 
                     className="form-control" />
             </div>
-            <button className="btn btn-primary">Submit</button>
+            <button className="btn btn-primary mt-3">Submit</button>
         </form>
     </div>;
 };
