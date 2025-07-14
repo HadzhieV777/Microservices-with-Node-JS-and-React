@@ -5,7 +5,7 @@ const { randomBytes } = require('crypto');
 const axios = require('axios');
 
 const app = express();
-app.use(cors()); // ✅ Enables Cross-Origin Requests
+app.use(cors());
 app.use(bodyParser.json());
 
 const posts = {};
